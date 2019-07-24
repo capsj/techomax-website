@@ -5,7 +5,6 @@ const Contact = (props) => (
         <div className="inner">
             <section>
                 <form action="https://formspree.io/jerocarlos@hotmail.com" method="POST">
-                {/*<form action="https://fapimail.p.rapidapi.com/email/send" method="POST">*/}
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" />
@@ -23,7 +22,6 @@ const Contact = (props) => (
                         <li><input type="reset" value="Clear" /></li>
                     </ul>
                     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"/>
-                    <input type="hidden" name="recipient" id="email-recipient" value="jerocarlos@hotmail.com"/>
                 </form>
             </section>
             <section className="split">
