@@ -31,29 +31,33 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Inspecciones</h3>
+                                <p>Nuestros técnicos capacitados examinan el sistema de techo exterior, al tiempo que observa las condiciones de los paneles de pared, separadores de área, parapetos y penetraciones del techo y la documentación de las condiciones de control aplicables en el futuro.
+                                </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Limpieza</h3>
+                                <p>Todos los desechos se eliminan de la superficie del techo, canaletas, desagües interiores ya través de la pared imbornales para evitar que se acumule el agua que pueden causar envejecimiento prematuro y daños en el techo.
+                                </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Mantenimiento</h3>
+                                <p>Según sea necesario, reemplazamos el sellador deteriorado en sellos de metal,  re-sellamos  tapajuntas  y perímetros. También aseguramos drenajes y revisamos zinguería y cañerías de desagote.
+                                </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Informes</h3>
+                                <p>Proporcionamos una reporte  del trabajo realizado, la evaluación de las condiciones del techo, incluyendo planos y fotografías del techo actualizados.
+                                </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
