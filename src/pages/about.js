@@ -8,7 +8,7 @@ import pic08 from '../assets/images/roofs-0.jpg'
 import pic09 from '../assets/images/roofs-1.jpg'
 import pic10 from '../assets/images/roofs-2.jpg'
 
-const Landing = () => (
+const About = () => (
     <Layout>
         <Helmet>
             <title>Acerca de - TECHOMAX</title>
@@ -92,4 +92,4 @@ const Landing = () => (
     </Layout>
 )
 
-export default Landing
+export default About
