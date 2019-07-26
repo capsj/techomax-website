@@ -8,9 +8,6 @@ const Banner = () => (
             </header>
             <div className="content">
                 <p>Impermeabilización para techos y cubiertas.</p>
-                <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Ver más</a></li>
-                </ul>
             </div>
         </div>
     </section>

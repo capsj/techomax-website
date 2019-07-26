@@ -20,4 +20,12 @@
 		h3 {
 			margin: 0 0 (_size(element-margin) * 0.25) 0;
 		}
+
+		.a-like {
+			cursor: pointer;
+			transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+			&:hover {
+				color: #9bf1ff !important;
+			}
+		}
 	}
