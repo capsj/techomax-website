@@ -54,29 +54,31 @@ const Contact = (props) => (
         </div>
     </section>
 );
-
-    function handleMaps() { window.open('https://goo.gl/maps/9rouJdT4hoecLYqv9') }
-
-    // function call() {
-    //     const request = new Request({
-    //         method: "POST",
-    //         headers: {
-    //             "Content-Type": "application/json",
-    //             "X-RapidAPI-Host": "fapimail.p.rapidapi.com",
-    //             "X-RapidAPI-Api": "e63172519bmsh06274b2eb89ef3ap121d08jsnf409921073af"
-    //         },
-    //         body: {
-    //             recipient: "jerocarlos@hotmail.com",
-    //             sender: "jerocarlos@hotmail.com",
-    //             subject: "Subject of Email",
-    //             message: "Body of Email"
-    //         }
-    //     });
-    //     console.log(request);
-    //     fetch(request).then((response) => {
-    //         console.log("i'm back!");
-    //         console.log(response);
-    //     });
-    // }
-
 export default Contact
+
+/*
+    Email API in case we need/decide to switch providers
+
+    function call() {
+        const request = new Request({
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "X-RapidAPI-Host": "fapimail.p.rapidapi.com",
+                "X-RapidAPI-Api": "e63172519bmsh06274b2eb89ef3ap121d08jsnf409921073af"
+            },
+            body: {
+                recipient: "techomax@hotmail.com",
+                sender: "techomax@hotmail.com",
+                subject: "Subject of Email",
+                message: "Body of Email"
+            }
+        });
+        console.log(request);
+        fetch(request).then((response) => {
+            console.log("i'm back!");
+            console.log(response);
+        });
+    }
+
+ */
