@@ -9,7 +9,7 @@ import pic02 from '../assets/images/roofs-1.jpg'
 import pic03 from '../assets/images/roofs-2.jpg'
 import pic04 from '../assets/images/roofs-3.jpg'
 import pic05 from '../assets/images/roofs-4.jpg'
-import pic06 from '../assets/images/roofs-5.jpg'
+import pic06 from '../assets/images/team.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -63,8 +63,10 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
-                                <h3>Acerca De</h3>
-                                <p>TechoMax Argentina</p>
+                                <h3>Soluciones ambientales</h3>
+                                <p>
+                                    Los lugares de trabajo saludables son buenos para los negocios. Considere TechoMax Soluciones Ambientales.
+                                </p>
                             </header>
                             <Link to="/about" className="link primary"></Link>
                         </article>
