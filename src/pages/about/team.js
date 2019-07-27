@@ -1,18 +1,18 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
-import Layout from '../components/layout'
-import pic08 from '../assets/images/CNO.jpg'
-import BannerTeam from '../components/BannerTeam'
+import Layout from '../../components/layout'
+import pic08 from '../../assets/images/CNO.jpg'
+import BannerLanding from "../../components/BannerLanding";
 
 const Landing = () => (
   <Layout>
     <Helmet>
-      <title>Conozca al Equipo- TECHOMAX</title>
-      <meta name="description" content="Team Page" />
+      <title>Equipo - TECHOMAX</title>
+      <meta name="Equipo" content="Equipo - TechoMax" />
     </Helmet>
 
-    <BannerTeam />
+    <BannerLanding title={"Conozca al equipo"} subtitle={""}/>
 
     <div id="main">
       <section id="one">
@@ -20,9 +20,12 @@ const Landing = () => (
           <header className="major">
             <h2>Equipo de Gestion</h2>
           </header>
-          {/*<ul className="actions">*/}
-          {/*  <li><Link to="/repairs" className="button">Ver más</Link></li>*/}
-          {/*</ul>*/}
+          <p>
+            El equipo de gestión TechoMax se compone de algunos de los nombres más talentosos y con experiencia en la industria del
+            techado e impermeabilización. Prestamos experiencia estrategica y financiera para su proyecto de techado,
+            proporcionando la fuerza altos directivos de nivel a nivel local, con el beneficio añadido de un equipo de expertos
+            de las divisiones nacionales.
+          </p>
         </div>
       </section>
       <section id="two" className="spotlights">
@@ -48,7 +51,7 @@ const Landing = () => (
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h2>Diego Harte, <br/>Presidente MH Consult Dirección Comercial Corporativa</h2>
+                <h2>Diego Harte, <br/>Presidente MH Consult <br/> Dirección Comercial Corporativa</h2>
               </header>
               {/*<ul className="actions">*/}
               {/*  <li><Link to="/response" className="button">Ver más</Link></li>*/}

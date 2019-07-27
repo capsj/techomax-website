@@ -75,7 +75,7 @@ class HomeIndex extends React.Component {
                                     Los lugares de trabajo saludables son buenos para los negocios. Considere TechoMax Soluciones Ambientales.
                                 </p>
                             </header>
-                            <Link to="/about" className="link primary"></Link>
+                            <Link to="/" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
