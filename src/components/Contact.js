@@ -4,7 +4,7 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form action="https://formspree.io/jerocarlos@hotmail.com" method="POST">
+                <form action="https://formspree.io/techomaxargentina@gmail.com" method="POST">
                     <div className="field half first">
                         <label htmlFor="name">Nombre y Apellido</label>
                         <input type="text" name="name" id="name" />

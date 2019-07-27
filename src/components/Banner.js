@@ -7,7 +7,12 @@ const Banner = () => (
                 <h1>TECHOMAX Argentina</h1>
             </header>
             <div className="content">
-                <p>Impermeabilización para techos y cubiertas.</p>
+                <p>Impermeabilización para techos y cubiertas.
+                <br/>
+                <h2>
+                    GARANTIZAMOS NUESTRAS OBRAS POR 10 AÑOS.
+                </h2>
+                </p>
             </div>
         </div>
     </section>

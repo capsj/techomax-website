@@ -20,7 +20,7 @@ class HomeIndex extends React.Component {
                     title="TechoMax Argentina"
                     meta={[
                         { name: 'description', content: 'Mantenimiento y Garantía: 10 años. Expertos - Solicite Cotización.' },
-                        { name: 'keywords', content: 'Mantenimiento Planificado. Impermeabilización. Respuesta a desastres. Reparación y Servicios. Soluciones Ambientales. Servicios: Registro de Servicios, Fotografía, Propuesta Detallada, Atendemos Emergencias.' },
+                        { name: 'keywords', content: 'Mantenimiento Planificado. Impermeabilización. Respuesta a desastres. Reparación y Servicios. Soluciones Ambientales. Servicios: Registro de Servicios, Fotografía, Propuesta Detallada, Atendemos Emergencias. Garantizamos nuestras obras 10 años.\n' },
                     ]}
                 >
                 </Helmet>
@@ -91,7 +91,15 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2>Sobre Nosotros</h2>
                             </header>
-                            <p>TechoMax Argentina, es el contratista de impermeabilización para techos y cubiertas más importante del país.</p>
+                            <p>
+                                TechoMax Argentina es el contratista de impermeabilización para techos más importante de Argentina, con operaciones
+                                tanto en Capital y GBA así como en el interior del país. Nuestro compromiso inquebrantable con la calidad,
+                                experiencia y profesionalismo es lo que nos hace el líder del sector. La instalación, la reparación,
+                                la respuesta ante daños en casos de emergencia, así como las opciones de sustentabilidad que usted o su
+                                empresa necesiten. Le ofrecemos la capacidad de respuesta de un contratista de techos de su zona respaldada por
+                                los recursos financieros, el tamaño y la estabilidad que necesita de una solución para techos comerciales de gran
+                                envergadura.
+                            </p>
                             <ul className="actions">
                                 <li><Link to="/about" className="button next">Conocé Más</Link></li>
                             </ul>
