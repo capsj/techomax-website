@@ -9,7 +9,7 @@ import pic02 from '../assets/images/roofs-1.jpg'
 import pic03 from '../assets/images/roofs-2.jpg'
 import pic04 from '../assets/images/roofs-3.jpg'
 import pic05 from '../assets/images/roofs-4.jpg'
-import pic06 from '../assets/images/team.jpg'
+import nProject from '../assets/images/new-project.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -32,15 +32,22 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>Inspecciones</h3>
-                                <p>Nuestros técnicos capacitados examinan el sistema de techo exterior, al tiempo que observa las condiciones de los paneles de pared, separadores de área, parapetos y penetraciones del techo y la documentación de las condiciones de control aplicables en el futuro.
+                                <p>
+                                    Nuestros técnicos capacitados examinan el sistema de techo exterior,
+                                    las condiciones de los paneles de pared, separadores de área,
+                                    penetraciones del techo y la documentación de las condiciones de control aplicables en el futuro.
                                 </p>
                             </header>
                             <Link to="/" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{backgroundImage: `url(${nProject})`}}>
                             <header className="major">
-                                <h3>Limpieza</h3>
-                                <p>Todos los desechos se eliminan de la superficie del techo, canaletas, desagües interiores ya través de la pared imbornales para evitar que se acumule el agua que pueden causar envejecimiento prematuro y daños en el techo.
+                                <h3>Evaluación de nuevos proyectos</h3>
+                                <p>
+                                    Rendimiento. A tiempo. Ajustado al presupuesto.
+                                    Si usted está construyendo desde cero o busca realizar una expansión,
+                                    es muy importante seleccionar un contratista que pueda ofrecer
+                                    las mejores condiciones.
                                 </p>
                             </header>
                             <Link to="/" className="link primary"></Link>
@@ -70,12 +77,13 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/about" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
+                        <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Equipo</h3>
-                                <p>Conozca al Equipo</p>
+                                <h3>Limpieza</h3>
+                                <p>Todos los desechos se eliminan de la superficie del techo, canaletas, desagües interiores ya través de la pared imbornales para evitar que se acumule el agua que pueden causar envejecimiento prematuro y daños en el techo.
+                                </p>
                             </header>
-                            <Link to="/team" className="link primary"></Link>
+                            <Link to="/" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">
