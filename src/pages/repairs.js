@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import pic11 from '../assets/images/roofs-5.jpg'
+import pic11 from '../assets/images/team.jpg'
 
 const Plan = () => (
   <Layout>

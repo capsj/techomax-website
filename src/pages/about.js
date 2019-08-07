@@ -4,84 +4,128 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
-import pic08 from '../assets/images/roofs-0.jpg'
-import pic09 from '../assets/images/roofs-1.jpg'
-import pic10 from '../assets/images/roofs-2.jpg'
+import experience from '../assets/images/about/experience.jpg'
+import finSth from '../assets/images/about/financial-strength.jpg'
+import safety from '../assets/images/about/safety.jpg'
+import team from '../assets/images/team.jpg'
+import career from '../assets/images/about/career.jpg'
 
 const About = () => (
     <Layout>
         <Helmet>
-            <title>Acerca de - TECHOMAX</title>
+            <title>Sobre Nosotros - TECHOMAX</title>
             <meta name="description" content="Landing Page" />
         </Helmet>
 
-        <BannerLanding />
+        <BannerLanding title={"Sobre Nosotros"} subtitle={""}/>
 
         <div id="main">
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>TechoMax Repara</h2>
+                        <h2>Nuestros valores fundamentales</h2>
                     </header>
-                    <p>Las goteras en los techos son impredecibles, y su reparación debe ser la adecuada en cada caso.
-                        Todos los techos son vulnerables a las deficiencias que pueden conducir a fugas. El clima extremo - tornados, granizo, nieve, árboles caídos, incluso el  congelamiento y descongelado estacional puede dañar el techo.
+                    <p>
+                        <b>Por encima de todo... más allá de techos</b><br/>
+                        Un techo es algo más que un refugio. Un techo ofrece un enorme potencial y una gran variedad de oportunidades.
+                        Puede ser un compromiso con el medio ambiente. Una oportunidad para innovar. Una fuente de energía.
+                        Una ventaja para ser atendido. Nuestros Valores Fundamentales en TechoMax nos guian mientras dirigimos la industria
+                        hacia adelante y continuar ofreciendo a nuestros clientes los productos y servicios de primera clase que excedan sus expectativas.
                     </p>
                   <ul className="actions">
-                    <li><Link to="/repairs" className="button">Ver más</Link></li>
+                    <li><Link to="/about/values" className="button">Ver más</Link></li>
                   </ul>
                 </div>
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/plan" className="image">
-                        <img src={pic08} alt="" />
+                    <Link to="/about/experience" className="image">
+                        <img src={experience} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>TechoMax Plan</h3>
+                                <h3>Experiencia</h3>
                             </header>
-                            <p>El Plan de Mantenimiento Programado de TechoMax está diseñado para tener la preocupación de la gestión de activos de techo, al tiempo que protege y prolonga la vida de su techo.</p>
+                            <p>
+                                Conocimiento sin igual, recursos y habilidad.
+                            </p>
                             <ul className="actions">
-                                <li><Link to="/plan" className="button">Ver más</Link></li>
+                                <li><Link to="/about/experience" className="button">Ver más</Link></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <Link to="/plan" className="image">
-                        <img src={pic09} alt="" />
+                    <Link to="/about/safety" className="image">
+                        <img src={safety} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>TechoMax Responde</h3>
+                                <h3>Seguridad</h3>
                             </header>
-                            <p>En algún lugar, hay una tormenta con el nombre de su techo.
-                                Cuando se trata de las tormentas que nadie sabe a ciencia cierta cuándo, dónde o cómo ocurrirán.
-                                Todo lo que sabemos es que una tormenta que va a ocurrir en alguna parte en algún momento.
+                            <p>
+                                En TechoMax, la seguridad en el lugar de trabajo es nuestra prioridad.
                             </p>
                             <ul className="actions">
-                                <li><Link to="/response" className="button">Ver más</Link></li>
+                                <li><Link to="/about/safety" className="button">Ver más</Link></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
+                    <Link to="/about/finance" className="image">
+                        <img src={finSth} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>TechoMax Soluciones</h3>
+                                <h3>Fortaleza financiera</h3>
                             </header>
-                            <p>No se limite a esperar lo inesperado, el genere un plan de acción antes de que ocurra.
-                                Daño de hielo, fuertes vientos, lluvia y nieve se cobran su precio en cualquier techo.
-                                Y aunque no se puede saber cuando estos fenómenos meteorológicos tendrán lugar, usted debe saber que usted está preparado para ellos.
+                            <p>
+                                La fuerza que necesita de una compañía de impermeabilizaciones.
                             </p>
                             <ul className="actions">
-                                <li><Link to="/solutions" className="button">Ver más</Link></li>
+                                <li><Link to="/about/finance" className="button">Ver más</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="/about/team" className="image">
+                        <img src={team} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Equipo de Gestión</h3>
+                            </header>
+                            <p>
+                                El equipo de gestión TechoMax se compone de algunos de los nombres más talentosos y con experiencia en la industria del techado e impermeabilización.
+                            </p>
+                            <ul className="actions">
+                                <li><Link to="/about/team" className="button">Ver más</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="/about/career" className="image">
+                        <img src={career} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Carrera en TechoMax</h3>
+                            </header>
+                            <p>
+                                ¿Has pensado en una carrera en la industria de la impermeabiliación?
+                                La industria está viendo cambios muy interesantes en tecnologías sustentables sostenible para techos,
+                                tecnologías innovadoras y más. TechoMaxLatinoamerica está liderando el cambio.
+                            </p>
+                            <ul className="actions">
+                                <li><Link to="/about/career" className="button">Ver más</Link></li>
                             </ul>
                         </div>
                     </div>
