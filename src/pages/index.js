@@ -50,12 +50,12 @@ class HomeIndex extends React.Component {
                                     las mejores condiciones.
                                 </p>
                             </header>
-                            <Link to="/" className="link primary"></Link>
+                            <Link to="/services/projects" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Mantenimiento</h3>
-                                <p>Según sea necesario, reemplazamos el sellador deteriorado en sellos de metal,  re-sellamos  tapajuntas  y perímetros. También aseguramos drenajes y revisamos zinguería y cañerías de desagote.
+                                <p>Según sea necesario, reemplazamos el sellador deteriorado en sellos de metal, re-sellamos tapajuntas y perímetros. También aseguramos drenajes y revisamos zinguería y cañerías de desagote.
                                 </p>
                             </header>
                             <Link to="/" className="link primary"></Link>
@@ -63,7 +63,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
                                 <h3>Informes</h3>
-                                <p>Proporcionamos una reporte  del trabajo realizado, la evaluación de las condiciones del techo, incluyendo planos y fotografías del techo actualizados.
+                                <p>Proporcionamos un reporte  del trabajo realizado, la evaluación de las condiciones del techo, incluyendo planos y fotografías del techo actualizados.
                                 </p>
                             </header>
                             <Link to="/" className="link primary"></Link>
@@ -75,7 +75,7 @@ class HomeIndex extends React.Component {
                                     Los lugares de trabajo saludables son buenos para los negocios. Considere TechoMax Soluciones Ambientales.
                                 </p>
                             </header>
-                            <Link to="/" className="link primary"></Link>
+                            <Link to="/services/green" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
