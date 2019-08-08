@@ -60,6 +60,13 @@
 				}
 			}
 
+			&.style1 { background-color: _palette(accent1)!important; }
+			&.style2 { background-color: _palette(accent2)!important; }
+			&.style3 { background-color: _palette(accent3)!important; }
+			&.style4 { background-color: _palette(accent4)!important; }
+			&.style5 { background-color: _palette(accent5)!important; }
+			&.style6 { background-color: _palette(accent6)!important; }
+
 			&:nth-child(2n) {
 				@include vendor('flex-direction', 'row-reverse');
 				background-color: desaturate(lighten(_palette(bg-alt), 4), 2);
