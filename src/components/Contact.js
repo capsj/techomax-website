@@ -61,6 +61,8 @@ const Contact = () => {
 );}
 export default Contact
 
+const handleClick = (url) => window.open(url);
+
 /*
     Email API in case we need/decide to switch providers
 
