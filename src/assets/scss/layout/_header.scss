@@ -60,9 +60,6 @@
 					background-color: desaturate(darken(_palette(highlight), 15), 5);
 				}
 			}
-			img {
-				max-width: 35%;
-			}
 		}
 
 		nav {
@@ -155,6 +152,11 @@
 		}
 
 		@include breakpoint(xlarge) {
+			.logo {
+				img {
+					max-width: 35%;
+				}
+			}
 			nav {
 				a {
 					&.menu-link {
@@ -169,6 +171,11 @@
 		}
 
 		@include breakpoint(large) {
+			.logo {
+				img {
+					max-width: 35%;
+				}
+			}
 			nav {
 				a {
 					&.menu-link {
@@ -188,6 +195,9 @@
 
 			.logo {
 				padding: 0 1em;
+				img {
+					max-width: 65%;
+				}
 			}
 
 			nav {
@@ -221,6 +231,9 @@
 			.logo {
 				span {
 					display: none;
+				}
+				img {
+					max-width: 65%;
 				}
 			}
 
