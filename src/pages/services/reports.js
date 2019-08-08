@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../../components/layout'
+import reports from '../../assets/images/informes.jpg'
 
 const Reports = () => (
   <Layout>
@@ -10,7 +11,7 @@ const Reports = () => (
     </Helmet>
 
     <div id="main" className="alt">
-      <section id="one">
+      <section id="one" style={{backgroundImage: `linear-gradient(rgba(0,50,85), rgba(0,59,85,0.8)), url(${reports})`}}>
         <div className="inner">
           <header className="major">
             <h1>Informes</h1>

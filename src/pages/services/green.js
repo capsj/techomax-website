@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../../components/layout'
 
 import pic from '../../assets/images/services/green-home.jpg'
+import pic05 from '../../assets/images/roofs-4.jpg'
 
 const GreenSolutions = () => (
   <Layout>
@@ -12,7 +13,7 @@ const GreenSolutions = () => (
     </Helmet>
 
     <div id="main" className="alt">
-      <section id="one">
+      <section id="one" style={{backgroundImage:  `linear-gradient(rgba(0,50,85), rgba(0,59,85,0.8)), url(${pic05})`}}>
         <div className="inner">
           <header className="major">
             <h1>Soluciones ambientales</h1>

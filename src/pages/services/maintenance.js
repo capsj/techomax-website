@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../../components/layout'
+import pic03 from '../../assets/images/roofs-2.jpg'
 
 const Maintenance = () => (
   <Layout>
@@ -10,7 +11,7 @@ const Maintenance = () => (
     </Helmet>
 
     <div id="main" className="alt">
-      <section id="one">
+      <section id="one" style={{backgroundImage: `linear-gradient(rgba(0,50,85), rgba(0,59,85,0.8)), url(${pic03})`}}>
         <div className="inner">
           <header className="major">
             <h1>Mantenimiento Planificado</h1>
