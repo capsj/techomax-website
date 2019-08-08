@@ -34,6 +34,9 @@ const GreenSolutions = () => (
             ofrecen beneficios fiscales para los constructores que construyen o mejoramiento de sus edificios con techos vegetativos.
             Estos sistemas ofrecen una variedad de beneficios:
 
+            <br/>
+            <br/>
+
             <ul>
               <li>
                 Reducen la cantidad de aguas pluviales vertidas en los sistemas de alcantarillado municipales,
@@ -61,7 +64,6 @@ const GreenSolutions = () => (
                 para los ocupantes del edificio ya que estos "jardines de la azotea" han ganado prevalencia y popularidad.
               </li>
             </ul>
-            <br/>
           </p>
         </div>
       </section>
