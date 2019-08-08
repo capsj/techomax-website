@@ -34,7 +34,7 @@ const Career = () => (
             de proyectos a los capataces estamos siempre en busca de personas con talento para unirse a nuestro equipo.
             Aquí encontrarás una cultura que abarca la innovación, el trabajo en equipo y la diversidad, y ser parte del equipo.
             Tenemos mucho cuidado de nuestros empleados a través de los paquetes de compensación competitivos y ventajas comprensivas.
-            Si deseas ser parte de TechoMax, ponete en contacto con nosotros hoy en <a onClick={() => { window.open("mailto:carreras@techomax.com.ar")}}>carreras@techomax.com.ar</a>.
+            Si deseas ser parte de TechoMax, ponete en contacto con nosotros hoy en <a href={() => { window.open("mailto:carreras@techomax.com.ar")}}>carreras@techomax.com.ar</a>.
           </p>
         </div>
       </section>
