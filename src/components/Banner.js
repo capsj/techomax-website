@@ -9,9 +9,9 @@ const Banner = () => (
             <div className="content">
 
                 <p>
-                <h3>Impermeabilización para techos y cubiertas.</h3>
+                <h2>Impermeabilización para techos y cubiertas.</h2>
                     <br/>
-                <h2>GARANTIZAMOS NUESTRAS OBRAS POR 10 AÑOS.</h2>
+                <h1>GARANTIZAMOS NUESTRAS OBRAS POR 10 AÑOS.</h1>
                 </p>
 
             </div>
