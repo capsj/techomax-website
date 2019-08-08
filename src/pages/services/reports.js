@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../../components/layout'
 
-const Projects = () => (
+const Reports = () => (
   <Layout>
     <Helmet>
       <title>Informes - TECHOMAX</title>
@@ -43,4 +43,4 @@ const Projects = () => (
   </Layout>
 )
 
-export default Projects
+export default Reports

@@ -4,7 +4,7 @@ import Layout from '../../components/layout'
 
 import pic from '../../assets/images/services/green-home.jpg'
 
-const GreenSolutions = () => (
+const Repairs = () => (
   <Layout>
     <Helmet>
       <title>Reparaciones - TECHOMAX</title>
@@ -83,4 +83,4 @@ const GreenSolutions = () => (
   </Layout>
 )
 
-export default GreenSolutions
+export default Repairs
