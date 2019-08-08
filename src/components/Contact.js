@@ -1,6 +1,11 @@
 import React from 'react'
 
-const Contact = (props) => (
+const Contact = () => {
+    const handleClickMail = () => { window.open("mailto:techomaxargentina@gmail.com")};
+    const handleClickPhone = () => { window.open("https://wa.me/541165775397")};
+    const handleClickAddress = () => { window.open("https://goo.gl/maps/9rouJdT4hoecLYqv9")};
+
+  return (
     <section id="contact">
         <div className="inner">
             <section>
@@ -29,7 +34,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <div className="a-like" onClick={() => { window.open("mailto:techomaxargentina@gmail.com")}}>techomaxargentina@gmail.com</div>
+                        <div className="a-like" onClick={handleClickMail}>techomaxargentina@gmail.com</div>
                     </div>
                 </section>
                 <section>
@@ -37,13 +42,13 @@ const Contact = (props) => (
                         <span className="icon alt fa-phone"></span>
                         <h3>Teléfonos</h3>
                         <span><b>Fijo:</b> 0810-222-9551</span>
-                        <br/><div className="a-like" onClick={() => { window.open("https://wa.me/541165775397")}}><b>WhatsApp:</b> 116 577 5397</div>
+                        <br/><div className="a-like" onClick={handleClickPhone}><b>WhatsApp:</b> 116 577 5397</div>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
-                        <div className="a-like" onClick={() => { window.open("https://goo.gl/maps/9rouJdT4hoecLYqv9")}}>
+                        <div className="a-like" onClick={handleClickAddress}>
                             <h3>Dirección</h3>
                             <span>Dardo Rocha 1978, <br/>Of. 14 San Isidro,
                                 <br/> Buenos Aires</span>
@@ -53,7 +58,7 @@ const Contact = (props) => (
             </section>
         </div>
     </section>
-);
+);}
 export default Contact
 
 /*

@@ -1,16 +1,16 @@
 import React from 'react'
 
-function BannerLanding (props) { return (
+const BannerLanding = ({title, subtitle}) => (
     <section id="banner" className="style2">
         <div className="inner">
             <header className="major">
-                <h1>{props.title}</h1>
+                <h1>{title}</h1>
             </header>
             <div className="content">
-                <p>{props.subtitle}</p>
+                <p>{subtitle}</p>
             </div>
         </div>
     </section>
-) }
+);
 
 export default BannerLanding
