@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/roofs-0.jpg'
 import pic02 from '../assets/images/roofs-1.jpg'
 import pic03 from '../assets/images/roofs-2.jpg'
 import pic04 from '../assets/images/roofs-3.jpg'
