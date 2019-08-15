@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
-import logo from '../assets/images/logo-techomax.svg'
+import logo from '../assets/images/logo-techomax.png'
 
 const Header = ({onToggleMenu}) => (
     <header id="header" className="alt">
