@@ -25,8 +25,8 @@ const Finance = () => (
 
             <b>Paz mental</b>
             <br/>
-            Estamos en el negocio para el largo plazo, no para honrar nuestras garantías. Estamos en condiciones de completar
-            los proyectos de acuerdo al plan, sin tomar atajos. Muchos contratistas, no tienen el capital necesario y son propensos a
+            Estamos en el negocio a largo plazo, honrando nuestras garantías. Estamos en condiciones de completar
+            los proyectos de acuerdo al plan, sin tomar atajos. Muchos contratistas no tienen el capital necesario y son propensos a
             salir del negocio de forma inesperada.
             <br/>
             <br/>
@@ -40,9 +40,10 @@ const Finance = () => (
 
             <b>Relaciones con los proveedores fuertes</b>
             <br/>
-            Estamos certificados en todos los sistemas de techado importantes y somos generalmente el mayor cliente de todos
-            los principales fabricantes. Nuestros sistemas de materiales de inventario, manejo y compra en todo el país aseguran que
-            los materiales adecuados están a la mano cuando usted los necesita, incluso en épocas de escasez, como situaciones de emergencia o desastre.
+            Estamos certificados en todos los sistemas de techado importantes y somos clientes de todos
+            los principales fabricantes, teniendo alianzas estrategicas con distintas fábricas, en especial con Membranas TechFlex Argentina SA.
+            Nuestros sistemas de materiales de inventario, manejo y compra en todo el país aseguran que los materiales adecuados están
+            a la mano cuando usted los necesita, como situaciones de emergencia o desastre.
             <br/>
             <br/>
 

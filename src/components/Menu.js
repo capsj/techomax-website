@@ -10,7 +10,7 @@ const Menu = ({onToggleMenu}) => (
                 <li><Link onClick={onToggleMenu} to="/about">Sobre Nosotros</Link></li>
                 <li><Link onClick={onToggleMenu} to="/#main">Servicios</Link></li>
                 <li><Link onClick={onToggleMenu} to="/services/projects">Nuevos proyectos</Link></li>
-                <li><Link onClick={onToggleMenu} to="/services/maintenance">Mantenimiento</Link></li>
+                <li><Link onClick={onToggleMenu} to="/services/maintenance">Mantenimiento Programado</Link></li>
                 <li><Link onClick={onToggleMenu} to="/services/replacements">Reemplazos</Link></li>
                 <li><Link onClick={onToggleMenu} to="/services/green">Soluciones ambientales</Link></li>
                 <li><Link onClick={onToggleMenu} to="/services/reports">Informes</Link></li>
