@@ -17,7 +17,7 @@ const Maintenance = () => (
             <h1>Mantenimiento Planificado</h1>
           </header>
           {/*<span className="image main"><img src={pic11} alt="" /></span>*/}
-          <p><h3><b>No se limite a esperar lo inesperado, genere un plan de acción antes de que ocurra.</b></h3>
+          <p><h3>No se limite a esperar lo inesperado, genere un plan de acción antes de que ocurra. <br/>Extienda los plazos de nuestra garantía.</h3>
             Daños por hielo, fuertes vientos, lluvia y nieve se cobran su precio en cualquier techo.
             Y aunque no se puede saber cuando estos fenómenos meteorológicos tendrán lugar, usted debe saber que está preparado para ellos.
             De lo contrario, corre el riesgo de problemas que generen inesperadas interrupciones de su negocio.

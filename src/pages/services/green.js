@@ -2,8 +2,9 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../../components/layout'
 
-import pic from '../../assets/images/services/green-home.jpg'
-import pic05 from '../../assets/images/roofs-4.jpg'
+import pic from '../../assets/images/services/green-wall.jpg'
+import pic2 from '../../assets/images/services/solar-roof-2.jpg'
+import pic09 from "../../assets/images/roofs-3.jpg";
 
 const GreenSolutions = () => (
   <Layout>
@@ -13,12 +14,11 @@ const GreenSolutions = () => (
     </Helmet>
 
     <div id="main" className="alt">
-      <section id="one" style={{backgroundImage:  `linear-gradient(rgba(0,50,85), rgba(0,59,85,0.8)), url(${pic05})`}}>
+      <section id="one">
         <div className="inner">
           <header className="major">
             <h1>Soluciones ambientales</h1>
           </header>
-          <span className="image main"><img src={pic} alt="" /></span>
           <p>
             No es de extrañar que los techos verdes esten aumentando en popularidad.
             Cada vez más empresas se están dando cuenta de los beneficios financieros de un techo verde,
@@ -28,7 +28,11 @@ const GreenSolutions = () => (
 
             <br/>
             <br/>
-
+          </p>
+          <p>
+            <span className="image left" style={{maxWidth: `unset`}}><img src={pic} style={{width: `unset`, maxHeight: `unset`, paddingRight: `15px`}} alt="" /></span>
+            {/*<span className="image left"><img src={pic09} alt="" /></span>*/}
+            <h2>Techos y Muros Verdes</h2>
             Los techos vegetativos o "techos verdes" se componen de varias capas, incluyendo los medios de comunicación
             entre el suelo y la vegetación. Estos techos están creciendo en popularidad, sobre todo porque la preocupación
             por el calentamiento global ha llegado a todos los niveles de gobierno y los negocios. Muchos municipios
@@ -65,6 +69,21 @@ const GreenSolutions = () => (
                 para los ocupantes del edificio ya que estos "jardines de la azotea" han ganado prevalencia y popularidad.
               </li>
             </ul>
+          </p>
+          <p>
+            <h2>Techos Solares</h2>
+            <span className="image main"><img src={pic2} style={{objectFit: `unset`}} alt="" /></span>
+            Los crecientes precios de la energía. El aumento de la responsabilidad corporativa. El reconocimiento de que los lugares
+            de trabajo más saludables son buenos para los negocios. No es ninguna coincidencia que la edificación sustentable ha pasado de
+            ser un nicho de negocio para convertirse en el estándar en la industria.
+
+            <br/>
+            <br/>
+            Para soluciones fotovoltaicas en la azotea, nosotros nos encargamos del diseño, adquisición, instalación y modelos financieros.
+            Aproveche el poder de la luz natural con tragaluces o un sistema de iluminación natural.
+            Podemos determinar qué sistema se adapta a sus necesidades y proporcionar la instalación y el mantenimiento regular.
+            Trabajamos con los últimos materiales y tecnologías para ayudar a decidir cuáles tienen más sentido para reducir
+            sus costos de energía y mejorar el rendimiento de su techo.
           </p>
         </div>
       </section>

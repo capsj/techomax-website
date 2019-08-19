@@ -18,7 +18,7 @@ const Values = () => (
             <h1>Nuestros valores fundamentales</h1>
           </header>
           {/*<span className="image main"><img src={pic11} alt="" /></span>*/}
-          <p><b>Por encima de todo... más allá de Techos</b><br/>
+          <p><b>Por encima de todo... más allá de los Techos</b><br/>
             Un techo es algo más que un refugio. Un techo ofrece un enorme potencial y una gran variedad de oportunidades.
             Puede ser un compromiso con el medio ambiente. Una oportunidad para innovar. Una fuente de energía. Una ventaja para ser atendido.
             Nuestros Valores Fundamentales en TechoMax nos guían mientras dirigimos la industria hacia adelante y continuar ofreciendo a nuestros
@@ -37,10 +37,10 @@ const Values = () => (
 
             <b>Nuestra Reputación</b>
             <br/>
-            La construcción es un deporte de equipo. El trabajo en equipo es un requisito previo para nuestra reputación y el éxito.
-            Estamos en el negocio para ayudar a nuestros empleados a alcanzar su potencial.
-            Juntos podemos atraer y retener a los mejores trabajadores de techado en el país a través de nuestras oportunidades de seguridad,
-            capacitación, remuneración y de carrera.
+            Hacemos lo que es mejor para el cliente, consolidando nuestra reputación sobre las cubiertas todos los días.
+            Estamos orgullosos de ser el contratista de elección para nuestros clientes y el líder en nuestra industria.
+            Nuestra sólida reputación se gana con proyectos exitosos y servicio, la excelencia técnica, las soluciones de los
+            clientes y la integridad.
             <br/>
             <br/>
 

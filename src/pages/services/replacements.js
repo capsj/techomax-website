@@ -6,15 +6,15 @@ import pic04 from '../../assets/images/roofs-3.jpg'
 const Replacements = () => (
   <Layout>
     <Helmet>
-      <title>Reemplazo de Techo - TECHOMAX</title>
-      <meta name="Reemplazo de Techo" content="Reemplazo de Techo - TECHOMAX" />
+      <title>Reemplazo total de la cubierta - TECHOMAX</title>
+      <meta name="Reemplazo total de la cubierta" content="Reemplazo total de la cubierta - TECHOMAX" />
     </Helmet>
 
     <div id="main" className="alt">
       <section id="one" style={{backgroundImage:  `linear-gradient(rgba(0,48,85), rgba(0,59,85,0.8)), url(${pic04})`}}>
         <div className="inner">
           <header className="major">
-            <h1>Reemplazo de Techo</h1>
+            <h1>Reemplazo total de la cubierta</h1>
           </header>
           {/*<span className="image main"><img src={pic11} alt="" /></span>*/}
           <p><h3><b>La experiencia para reemplazar cualquier sistema de techo.</b></h3>

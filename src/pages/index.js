@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/roofs-0.jpg'
 import pic02 from '../assets/images/roofs-1.jpg'
 import pic03 from '../assets/images/roofs-2.jpg'
 import pic04 from '../assets/images/roofs-3.jpg'
@@ -52,7 +51,7 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%,rgba(20, 20, 20, 0.2) 100%), url(${pic03})`}}>
                             <header className="major">
-                                <h3>Mantenimiento</h3>
+                                <h3>Mantenimiento Programado</h3>
                                 <p>Según sea necesario, reemplazamos el sellador deteriorado en sellos de metal, re-sellamos tapajuntas y perímetros. También aseguramos drenajes y revisamos zinguería y cañerías de desagote.
                                 </p>
                             </header>
@@ -72,7 +71,7 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h3>Soluciones ambientales</h3>
                                 <p>
-                                    Los lugares de trabajo saludables son buenos para los negocios. Considere TechoMax Soluciones Ambientales.
+                                    Techos y muros verdes. Techo Solar.
                                 </p>
                             </header>
                             <Link to="/services/green" className="link primary"></Link>

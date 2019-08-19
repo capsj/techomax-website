@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
     const handleClickMail = () => { window.open("mailto:techomaxargentina@gmail.com")};
     const handleClickPhone = () => { window.open("https://wa.me/541165775397")};
-    const handleClickAddress = () => { window.open("https://goo.gl/maps/9rouJdT4hoecLYqv9")};
+    const handleClickAddress = () => { window.open("https://goo.gl/maps/L6dpsWrvQeNvxLKr8")};
 
   return (
     <section id="contact">
