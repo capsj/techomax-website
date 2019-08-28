@@ -71,7 +71,7 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h3>Soluciones ambientales</h3>
                                 <p>
-                                    Techos y muros verdes. Techo Solar.
+                                    Techos y muros verdes. Techos Solares.
                                 </p>
                             </header>
                             <Link to="/services/green" className="link primary"></Link>
