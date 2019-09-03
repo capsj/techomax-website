@@ -154,7 +154,7 @@
 		@include breakpoint(xlarge) {
 			.logo {
 				img {
-					max-width: 35%;
+					max-width: 40%;
 				}
 			}
 			nav {
@@ -173,7 +173,7 @@
 		@include breakpoint(large) {
 			.logo {
 				img {
-					max-width: 35%;
+					max-width: 40%;
 				}
 			}
 			nav {
@@ -196,7 +196,7 @@
 			.logo {
 				padding: 0 1em;
 				img {
-					max-width: 65%;
+					max-width: 70%;
 				}
 			}
 
@@ -233,7 +233,7 @@
 					display: none;
 				}
 				img {
-					max-width: 65%;
+					max-width: 70%;
 				}
 			}
 
