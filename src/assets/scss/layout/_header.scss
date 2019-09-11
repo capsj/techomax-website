@@ -150,6 +150,13 @@
 				opacity: 0;
 			}
 		}
+		@include breakpoint(xxlarge) {
+			.logo {
+				img {
+					max-width: 60%;
+				}
+			}
+		}
 
 		@include breakpoint(xlarge) {
 			.logo {
