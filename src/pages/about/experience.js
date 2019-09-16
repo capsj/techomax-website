@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../../components/layout'
 
-// import pic11 from '../../assets/images/about/experience.jpg'
+import pic11 from '../../assets/images/about/experience.jpg'
 
 const Experience = () => (
   <Layout>
@@ -12,7 +12,7 @@ const Experience = () => (
     </Helmet>
 
     <div id="main" className="alt">
-      <section id="one">
+      <section id="one" style={{backgroundImage: `linear-gradient(rgba(0,50,85), rgba(0,59,85,0.8)),url(${pic11})`}}>
         <div className="inner">
           <header className="major">
             <h1>Experiencia</h1>
@@ -35,13 +35,13 @@ const Experience = () => (
                 capacitado para realizar el trabajo de manera rápida y correctamente, incluso en las circunstancias o los lugares más difíciles
               </li>
               <li>
-                Servicio consistente, orientada a la calidad bajo una sola y económica y gestión de techado probado programa de especial
-                importancia para los propietarios / gerentes regionales o nacionales con múltiples instalaciones y ubicaciones
+                Servicio consistente, orientado a la calidad, bajo una única y económica gestión de techado. TechoMax cuenta con un programa
+                de especial importancia para los propietarios o gerentes encargados de múltiples instalaciones y ubicaciones
               </li>
               <li>
-                Si sus instalaciones ocupan una gran presencia geográfica, podemos ofrecer un único punto de contacto para
-                manejar todas sus necesidades cubiertas. Esto conduce a una mayor rendición de cuentas y servicios de techado consistentes,
-                y elimina la necesidad de mantener múltiples relaciones de contratistas
+                Si sus instalaciones ocupan una gran extensión geográfica, podemos ofrecer un único punto de contacto que logre cubrir todas
+                sus necesidades. Conduciendo de esta manera a rendiciones de cuentas claras, servicios de techado consistentes,
+                y eliminando la necesidad de mantener relaciones con múltiples contratistas
               </li>
             </ul>
           </p>

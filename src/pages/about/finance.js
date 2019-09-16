@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../../components/layout'
+import finSth from '../../assets/images/about/financial-strength.jpg'
 
 const Finance = () => (
   <Layout>
@@ -10,7 +11,7 @@ const Finance = () => (
     </Helmet>
 
     <div id="main" className="alt">
-      <section id="one">
+      <section id="one" style={{backgroundImage: `linear-gradient(rgba(0,50,85), rgba(0,59,85,0.8)),url(${finSth})`}}>
         <div className="inner">
           <header className="major">
             <h1>Fortaleza financiera</h1>
@@ -24,8 +25,8 @@ const Finance = () => (
 
             <b>Paz mental</b>
             <br/>
-            Estamos en el negocio para el largo plazo, no para honrar nuestras garantías. Estamos en condiciones de completar
-            los proyectos de acuerdo al plan, sin tomar atajos. Muchos contratistas, no tienen el capital necesario y son propensos a
+            Estamos en el negocio a largo plazo, honrando nuestras garantías. Estamos en condiciones de completar
+            los proyectos de acuerdo al plan, sin tomar atajos. Muchos contratistas no tienen el capital necesario y son propensos a
             salir del negocio de forma inesperada.
             <br/>
             <br/>
@@ -39,9 +40,10 @@ const Finance = () => (
 
             <b>Relaciones con los proveedores fuertes</b>
             <br/>
-            Estamos certificados en todos los sistemas de techado importantes y somos generalmente el mayor cliente de todos
-            los principales fabricantes. Nuestros sistemas de materiales de inventario, manejo y compra en todo el país aseguran que
-            los materiales adecuados están a la mano cuando usted los necesita, incluso en épocas de escasez, como situaciones de emergencia o desastre.
+            Estamos certificados en todos los sistemas de techado importantes y somos clientes de todos
+            los principales fabricantes, teniendo alianzas estrategicas con distintas fábricas, en especial con Membranas TechFlex Argentina SA.
+            Nuestros sistemas de materiales de inventario, manejo y compra en todo el país aseguran que los materiales adecuados están
+            a la mano cuando usted los necesita, como situaciones de emergencia o desastre.
             <br/>
             <br/>
 

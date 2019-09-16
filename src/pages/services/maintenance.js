@@ -1,22 +1,23 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../../components/layout'
+import pic03 from '../../assets/images/roofs-2.jpg'
 
 const Maintenance = () => (
   <Layout>
     <Helmet>
-      <title>Mantenimiento Planificado - TECHOMAX</title>
-      <meta name="Mantenimiento Planificado" content="Mantenimiento Planificado - TECHOMAX" />
+      <title>Mantenimiento Programado - TECHOMAX</title>
+      <meta name="Mantenimiento Programado" content="Mantenimiento Programado - TECHOMAX" />
     </Helmet>
 
     <div id="main" className="alt">
-      <section id="one">
+      <section id="one" style={{backgroundImage: `linear-gradient(rgba(0,50,85), rgba(0,59,85,0.8)), url(${pic03})`}}>
         <div className="inner">
           <header className="major">
-            <h1>Mantenimiento Planificado</h1>
+            <h1>Mantenimiento Programado</h1>
           </header>
           {/*<span className="image main"><img src={pic11} alt="" /></span>*/}
-          <p><h3><b>No se limite a esperar lo inesperado, genere un plan de acción antes de que ocurra.</b></h3>
+          <p><h3>No se limite a esperar lo inesperado, genere un plan de acción antes de que ocurra. <br/>Extienda los plazos de nuestra garantía.</h3>
             Daños por hielo, fuertes vientos, lluvia y nieve se cobran su precio en cualquier techo.
             Y aunque no se puede saber cuando estos fenómenos meteorológicos tendrán lugar, usted debe saber que está preparado para ellos.
             De lo contrario, corre el riesgo de problemas que generen inesperadas interrupciones de su negocio.

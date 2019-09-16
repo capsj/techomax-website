@@ -17,7 +17,7 @@ const About = () => (
             <meta name="description" content="Landing Page" />
         </Helmet>
 
-        <BannerLanding title={"Sobre Nosotros"} subtitle={""}/>
+        <BannerLanding title={"Sobre Nosotros"} subtitle={""} className="major"/>
 
         <div id="main">
             <section id="one">
@@ -38,7 +38,7 @@ const About = () => (
                 </div>
             </section>
             <section id="two" className="spotlights">
-                <section>
+                <section className="style1">
                     <Link to="/about/experience" className="image">
                         <img src={experience} alt="" />
                     </Link>
@@ -56,7 +56,7 @@ const About = () => (
                         </div>
                     </div>
                 </section>
-                <section>
+                <section className="style4">
                     <Link to="/about/safety" className="image">
                         <img src={safety} alt="" />
                     </Link>
@@ -74,7 +74,7 @@ const About = () => (
                         </div>
                     </div>
                 </section>
-                <section>
+                <section className="style6">
                     <Link to="/about/finance" className="image">
                         <img src={finSth} alt="" />
                     </Link>
@@ -92,25 +92,25 @@ const About = () => (
                         </div>
                     </div>
                 </section>
-                <section>
-                    <Link to="/about/team" className="image">
-                        <img src={team} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Equipo de Gestión</h3>
-                            </header>
-                            <p>
-                                El equipo de gestión TechoMax se compone de algunos de los nombres más talentosos y con experiencia en la industria del techado e impermeabilización.
-                            </p>
-                            <ul className="actions">
-                                <li><Link to="/about/team" className="button">Ver más</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section>
+                {/*<section>*/}
+                {/*    <Link to="/about/team" className="image">*/}
+                {/*        <img src={team} alt="" />*/}
+                {/*    </Link>*/}
+                {/*    <div className="content">*/}
+                {/*        <div className="inner">*/}
+                {/*            <header className="major">*/}
+                {/*                <h3>Equipo de Gestión</h3>*/}
+                {/*            </header>*/}
+                {/*            <p>*/}
+                {/*                El equipo de gestión TechoMax se compone de algunos de los nombres más talentosos y con experiencia en la industria del techado e impermeabilización.*/}
+                {/*            </p>*/}
+                {/*            <ul className="actions">*/}
+                {/*                <li><Link to="/about/team" className="button">Ver más</Link></li>*/}
+                {/*            </ul>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</section>*/}
+                <section className="style5">
                     <Link to="/about/career" className="image">
                         <img src={career} alt="" />
                     </Link>
