@@ -41,7 +41,7 @@ const Contact = () => {
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Teléfonos</h3>
-                        <br/><div className="a-like" onClick={handleClickPhone}><b>WhatsApp:</b> 116 577 5397</div>
+                        <div className="a-like" onClick={handleClickPhone}><b>WhatsApp:</b> 116 577 5397</div>
                     </div>
                 </section>
                 <section>
