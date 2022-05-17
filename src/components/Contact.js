@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
     const handleClickMail = () => { window.open("mailto:techomaxargentina@gmail.com")};
     const handleClickPhone = () => { window.open("https://wa.me/541165775397")};
-    const handleClickAddress = () => { window.open("https://goo.gl/maps/L6dpsWrvQeNvxLKr8")};
+    const handleClickAddress = () => { window.open("https://g.page/barriomarinasgolf?share")};
 
   return (
     <section id="contact">
@@ -41,7 +41,6 @@ const Contact = () => {
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Teléfonos</h3>
-                        <span><b>Fijo:</b> 0810-222-9551</span>
                         <br/><div className="a-like" onClick={handleClickPhone}><b>WhatsApp:</b> 116 577 5397</div>
                     </div>
                 </section>
@@ -50,8 +49,8 @@ const Contact = () => {
                         <span className="icon alt fa-home"></span>
                         <div className="a-like" onClick={handleClickAddress}>
                             <h3>Dirección</h3>
-                            <span>Dardo Rocha 1978, <br/>Of. 14 San Isidro,
-                                <br/> Buenos Aires</span>
+                            <span>Av. Santa María de Las Conchas 5200, <br/>Marinas Golf, Torre 3, 1B
+                                <br/>Rincón de Millberg, Buenos Aires</span>
                         </div>
                     </div>
                 </section>
