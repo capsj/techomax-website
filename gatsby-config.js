@@ -1,3 +1,5 @@
+const siteUrl = 'https://www.techomax.com.ar'
+
 module.exports = {
   siteMetadata: {
     title: "Techomax Argentina",
@@ -62,31 +64,30 @@ module.exports = {
         // Exclude specific pages or groups of pages using glob parameters
         // See: https://github.com/isaacs/minimatch
         // The example below will exclude the single `path/to/page` and all routes beginning with `category`
-        exclude: ["", `/src/pages/404`],
-        query: `
-        {
-          site {
-            siteMetadata {
-              siteUrl
-            }
-          }
-
-          allSitePage {
-            edges {
-              node {
-                path
-              }
-            }
-          }
-      }`,
-        serialize: ({ site, allSitePage }) =>
-          allSitePage.edges.map(edge => {
-            return {
-              url: site.siteMetadata.siteUrl + edge.node.path,
-              changefreq: `daily`,
-              priority: 0.7,
-            }
-          })
+        excludes: ["", `/src/pages/404`],
+      //   query: `
+      //   {
+      //     site {
+      //       siteMetadata {
+      //         siteUrl
+      //       }
+      //     }
+      //
+      //     allSitePage {
+      //       nodes {
+      //         path
+      //       }
+      //     }
+      // }`,
+        resolveSiteUrl: () => siteUrl,
+        // serialize: ({ site, allSitePage }) =>
+        //   allSitePage.nodes.map(node => {
+        //     return {
+        //       url: site.siteMetadata.siteUrl + node.path,
+        //       changefreq: `daily`,
+        //       priority: 0.7,
+        //     }
+        //   })
       }
     }
   ],
