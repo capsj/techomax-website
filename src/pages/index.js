@@ -3,6 +3,8 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
+import Carousel from 'react-multi-carousel'
+import 'react-multi-carousel/lib/styles.css'
 
 import pic02 from '../assets/images/roofs-1.jpg'
 import pic03 from '../assets/images/roofs-2.jpg'
@@ -10,6 +12,34 @@ import pic04 from '../assets/images/roofs-3.jpg'
 import pic05 from '../assets/images/roofs-4.jpg'
 import nProject from '../assets/images/new-project.jpg'
 import reports from '../assets/images/informes.jpg'
+
+import loJack from '../assets/images/clients/lo-jack.png'
+import dbSchenker from '../assets/images/clients/db-schenker.png'
+import directv from '../assets/images/clients/directv.png'
+import iff from '../assets/images/clients/iff.png'
+import symrise from '../assets/images/clients/symrise.png'
+import sidus from '../assets/images/clients/sidus.png'
+const clientImages = [loJack, dbSchenker, directv, iff, symrise, sidus]
+
+const responsive = {
+    superLargeDesktop: {
+        // the naming can be any, depends on you.
+        breakpoint: { max: 4000, min: 3000 },
+        items: 5
+    },
+    desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 5
+    },
+    tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 5
+    },
+    mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 5
+    }
+};
 
 class HomeIndex extends React.Component {
     render() {
@@ -102,6 +132,32 @@ class HomeIndex extends React.Component {
                             <ul className="actions">
                                 <li><Link to="/about" className="button next">Conocé Más</Link></li>
                             </ul>
+                        </div>
+                    </section>
+                    <section id="three">
+                        <div className="inner">
+                            <header className="major">
+                                <h2>Nuestros Clientes</h2>
+                            </header>
+                            <div style={{backgroundColor: "white"}}>
+                                <Carousel
+                                    responsive={responsive}
+                                    autoPlay={true}
+                                    autoPlaySpeed={3000}
+                                    infinite={true}
+                                    showDots={false}
+                                    arrows={false}
+                                    centerMode={false}
+                                    containerClass="carousel-container"
+                                    itemClass="carousel-item-padding-40-px"
+                                >
+                                    {clientImages.map((image, index) => (
+                                        <div key={index} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+                                            <img src={image} alt={`Client ${index + 1}`} style={{ objectFit: 'contain', maxHeight: '100%' }}/>
+                                        </div>
+                                    ))}
+                                </Carousel>
+                            </div>
                         </div>
                     </section>
                 </div>

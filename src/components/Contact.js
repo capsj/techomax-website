@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
     const handleClickMail = () => { window.open("mailto:techomaxargentina@gmail.com")};
     const handleClickPhone = () => { window.open("https://wa.me/541165775397")};
-    const handleClickAddress = () => { window.open("https://g.page/barriomarinasgolf?share")};
+    const handleClickAddress = () => { window.open("https://goo.gl/maps/5NUbXvUYBPDNDbLn8")};
 
   return (
     <section id="contact">
@@ -49,8 +49,9 @@ const Contact = () => {
                         <span className="icon alt fa-home"></span>
                         <div className="a-like" onClick={handleClickAddress}>
                             <h3>Dirección</h3>
-                            <span>Av. Santa María de Las Conchas 5200, <br/>Marinas Golf, Torre 3, 1B
-                                <br/>Rincón de Millberg, Buenos Aires</span>
+                            <span>
+                                Laprida 3278, B1642 San Isidro, <br/>Provincia de Buenos Aires, <br/>Argentina
+                            </span>
                         </div>
                     </div>
                 </section>
