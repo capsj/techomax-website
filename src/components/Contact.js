@@ -47,8 +47,8 @@ const Contact = () => {
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
+                        <h3>Dirección</h3>
                         <div className="a-like" onClick={handleClickAddress}>
-                            <h3>Dirección</h3>
                             <span>
                                 Laprida 3278, B1642 San Isidro, <br/>Provincia de Buenos Aires, <br/>Argentina
                             </span>

@@ -19,7 +19,17 @@ import directv from '../assets/images/clients/directv.png'
 import iff from '../assets/images/clients/iff.png'
 import symrise from '../assets/images/clients/symrise.png'
 import sidus from '../assets/images/clients/sidus.png'
-const clientImages = [loJack, dbSchenker, directv, iff, symrise, sidus]
+import ocasa from '../assets/images/clients/ocasa.png'
+import quetzal from '../assets/images/clients/quetzal.png'
+import hempel from '../assets/images/clients/hempel.png'
+import yamaha from '../assets/images/clients/yamaha.png'
+import isof from '../assets/images/clients/isof.png'
+import arcano from '../assets/images/clients/arcano.png'
+import karcher from '../assets/images/clients/karcher.png'
+import afip from '../assets/images/clients/afip.png'
+import ferrovias from '../assets/images/clients/ferrovias.png'
+import meteorologico from '../assets/images/clients/meteorologico.png'
+const clientImages = [loJack, dbSchenker, directv, iff, symrise, sidus, ocasa, quetzal, hempel, yamaha, isof, arcano, karcher, afip, ferrovias, meteorologico]
 
 const responsive = {
     superLargeDesktop: {
@@ -33,11 +43,11 @@ const responsive = {
     },
     tablet: {
         breakpoint: { max: 1024, min: 464 },
-        items: 5
+        items: 3
     },
     mobile: {
         breakpoint: { max: 464, min: 0 },
-        items: 5
+        items: 1
     }
 };
 
@@ -129,9 +139,7 @@ class HomeIndex extends React.Component {
                                 los recursos financieros, el tamaño y la estabilidad que necesita de una solución para techos comerciales de gran
                                 envergadura.
                             </p>
-                            <ul className="actions">
-                                <li><Link to="/about" className="button next">Conocé Más</Link></li>
-                            </ul>
+                            <Link to="/about" className="button next">Conocé Más</Link>
                         </div>
                     </section>
                     <section id="three">
@@ -145,6 +153,7 @@ class HomeIndex extends React.Component {
                                     autoPlay={true}
                                     autoPlaySpeed={3000}
                                     infinite={true}
+                                    draggable={true}
                                     showDots={false}
                                     arrows={false}
                                     centerMode={false}
