@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
     const handleClickMail = () => { window.open("mailto:techomaxargentina@gmail.com")};
     const handleClickPhone = () => { window.open("https://wa.me/541165775397")};
-    const handleClickAddress = () => { window.open("https://goo.gl/maps/5NUbXvUYBPDNDbLn8")};
+    const handleClickAddress = () => { window.open("https://maps.app.goo.gl/TrEUdo36DBgm86Hj8")};
 
   return (
     <section id="contact">
@@ -50,7 +50,10 @@ const Contact = () => {
                         <h3>Dirección</h3>
                         <div className="a-like" onClick={handleClickAddress}>
                             <span>
-                                Laprida 3278, B1642 San Isidro, <br/>Provincia de Buenos Aires, <br/>Argentina
+                                Tucuman 900, <br/>
+                                Piso 4 F, <br/>
+                                1049 CABA
+                                {/*Laprida 3278, B1642 San Isidro, <br/>Provincia de Buenos Aires, <br/>Argentina*/}
                             </span>
                         </div>
                     </div>
