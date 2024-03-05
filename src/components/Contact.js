@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     const handleClickMail = () => { window.open("mailto:techomaxargentina@gmail.com")};
-    const handleClickPhone = () => { window.open("https://wa.me/541165775397")};
+    const handleClickPhone = () => { window.open("https://wa.me/541122878899")};
     const handleClickAddress = () => { window.open("https://maps.app.goo.gl/TrEUdo36DBgm86Hj8")};
 
   return (
@@ -41,7 +41,7 @@ const Contact = () => {
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Teléfono</h3>
-                        <div className="a-like" onClick={handleClickPhone}><b>WhatsApp:</b> 116 577 5397</div>
+                        <div className="a-like" onClick={handleClickPhone}><b>WhatsApp:</b> 112 287 8899</div>
                     </div>
                 </section>
                 <section>
